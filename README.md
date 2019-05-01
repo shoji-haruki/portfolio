@@ -1,5 +1,6 @@
-# portfolio[WIP]
+# [WIP]portfolio
 ポートフォリオサイト
 
 ## URL
 https://syoji-haruki.github.io/portfolio/
+
