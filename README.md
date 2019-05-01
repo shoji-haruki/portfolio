@@ -4,3 +4,8 @@
 ## URL
 https://syoji-haruki.github.io/portfolio/
 
+
+<!---
+モバイルフレンドリー
+レスポンシブ
+-->
