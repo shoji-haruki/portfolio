@@ -13,12 +13,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-github {
   background-color: #333;
-  text: #FFF;
+  color: #FFF;
 }
 
-.bg-twitter {
-  background-color: #55acee;
-  text: #FFF;
+.text-twitter {
+  color: #00acee;
 }
 
 .btn {
@@ -28,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 #top-page {
   margin-top: -70px;
   padding-top: 70px;
+
 }
 
 #page1 {
@@ -49,3 +49,74 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -70px;
   padding-top: 70px;
 }
+
+.min-height {
+  min-height: 100vh;
+}
+
+.myhover:hover {
+  background-color: #EEEEEE;
+}
+
+.background {
+  background-color: #F0F8FF;
+}
+
+.bg-page{
+  background-color: #f8f8f8;
+}
+
+.toptitle{
+  padding: 0;
+  font-size: 1.8em
+}
+/* navbar */
+.navbar-light .navbar-toggler {
+  border-color: rgba(0,0,0,0);
+}
+
+.active {
+  background-color: red;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.footer-style {
+  background-color: #333;
+  color: #EEEEEE;
+  font-size:0.5em;
+}
+
+.navbar-style {
+  background-color: white;
+}
+
+.dropdown-style {
+  background-color: ActiveBorder;
+  color:white;
+} 
+
+.my-name {
+  margin-top: 25vh;
+}
+.top-style {
+  color:ActiveCaption;
+  font-size:5em;
+}
+
+.active-blue {
+  color: #007bff;
+}
+
+
+
+
+  
+
+
+
+
+
+

@@ -30,52 +30,61 @@
   
 
   <body data-spy="scroll" data-target="#Navbar">
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light row fixed-top">
-      <a class="navbar-brand" href="#top-page">Portfolio</a>
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light  row fixed-top navbar-style">
+      <a class="navbar-brand ml-4  toptitle" href="#top-page">Portfolio</a>
+      <button type="button" class="navbar-toggler mr-2" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="Navbar">
-        <ul class="nav nav-pills flex-column flex-lg-row">
-          <li class="nav-item"><a class="nav-link active" href="#page1">ページ1</a></li>
-          <li class="nav-item"><a class="nav-link" href="#page2">ページ2</a></li>
-          <li class="nav-item"><a class="nav-link" href="#page3">ページ3</a></li>
-          <li class="nav-item"><a class="nav-link" href="#page4">ページ4</a></li>
-          
+      <div class="collapse navbar-collapse justify-content-end mr-5 " id="Navbar">
+        <ul class="nav nav-pills pr-3 flex-column flex-sm-row align-items-center ">
+          <li class="nav-item mr-1"><a class="nav-link active" href="#page1">About</a></li>
+          <li class="nav-item mr-1"><a class="nav-link" href="#page2">skills</a></li>
+          <li class="nav-item mr-1"><a class="nav-link" href="#page3">works</a></li>
+          <div class="dropdown">
+            <button class="btn dropdown-style dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              contact
+            </button>
+            <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+              <a href="https://twitter.com/shoji_engineer" class="dropdown-item btn myhover text-left "><i class="fab fa-twitter text-twitter fa-fw "></i> Twitter</a>
+              <a href="https://github.com/syoji-haruki" class="dropdown-item btn myhover text-left"><i class="fab fa-github fa-fw"></i> GitHub</a>
+            </div>
+          </div>
         </ul>
       </div>
     </nav>
-
-    <div class="container">
-      <div id="top-page">
-        <h1>Portfolio</h1>
-        ...
+    <!-- Content -->
+    <div class="container-fruid background">
+      <!-- top-page(Portfolio) -->
+      <div id="top-page" class="container min-height text-center bg-page mb-5">
+          <h2 class="top-style my-name ">shoji's</h2>
+        <h1 class="font-weight-bold top-style">Portfolio</h1>
       </div>
-      <div id="page1">
-        <h3>ページ1</h3>
+      <!-- page1(About) -->
+      <div id="page1" class="container min-height bg-page">
+        <h3 class="active-blue text-center">About</h3>
         <p>スクロールしてみて下さい。</p>
         ...
       </div>
-      <div id="page2">
-        <h3>ページ2</h3>
+      <!-- page2(skills) -->
+      <div id="page2" class="container min-height bg-page">
+        <h3 class="active-blue text-center">skills</h3>
         <p>サイトがページ2になると上部のナビゲーションバーのアクティブの部分がページ2に変わります。</p>
         ...
       </div>
-      <div id="page3">
-        <h3>ページ3</h3>
+      <!-- page3(works) -->
+      <div id="page3" class="container min-height bg-page">
+        <h3 class="active-blue text-center">works</h3>
         <p>スクロールしてみて下さい。</p>
-        ...
-      </div>
-      <div id="page4">
-        <h3>ページ4</h3>
-        <p>サイトがページ2になると上部のナビゲーションバーのアクティブの部分がページ2に変わります。</p>
         ...
       </div>
     </div>
-  
-  
-    <a href="" class="btn bg-twitter text-left"><i class="fab fa-twitter fa-fw"></i> Twitter</a>
+    <!-- footer -->
+    <div class="container-fruid footer-style py-3" >
+      <p class="text-center font-weight-light footer-style mb-0">CREDITS<br>
+        Many thanks for your visit to this page!
+        Copyright©syoji-haruki 2019/5/4</p>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
