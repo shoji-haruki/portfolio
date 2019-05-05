@@ -56,29 +56,167 @@
     <!-- Content -->
     <div class="container-fruid background">
       <!-- top-page(Portfolio) -->
-      <div id="top-page" class="container min-height text-center bg-page mb-5">
+      <div id="top-page" class="container min-height text-center bg-page mt-5">
           <h2 class="top-style my-name ">shoji's</h2>
         <h1 class="font-weight-bold top-style">Portfolio</h1>
       </div>
+
       <!-- page1(About) -->
-      <div id="page1" class="container min-height bg-page">
+      <div id="page1" class="container min-height bg-page mt-3">
         <h3 class="active-blue text-center">About</h3>
-        <p>スクロールしてみて下さい。</p>
-        ...
+        <div class="row px-2 align-items-center page1-style ">
+          <div class="col-sm-4 text-center ">
+            <img class=" img-thumbnail image-style" src="img/cat.jpg" alt="profile">
+          </div>
+          <div class="col-sm-8 pl-3">
+            <p class="font-weight-light ">高校卒業後製造業を6年弱経験<br>
+              エンジニアになる為に和歌山から東京へ上京<br>
+              TECH::EXPERT 卒業して転職活動中
+            </p>
+          </div>
+        </div>
       </div>
       <!-- page2(skills) -->
-      <div id="page2" class="container min-height bg-page">
+      <div id="page2" class="container min-height bg-page mt-3 px-4 pb-5">
         <h3 class="active-blue text-center">skills</h3>
-        <p>サイトがページ2になると上部のナビゲーションバーのアクティブの部分がページ2に変わります。</p>
-        ...
+        <div class="row skills-style py-4 mt-5">
+          <div class="col-sm-5 text-center align-self-center font-weight-bold">
+             <em class="skills-title">フロントエンド</em>
+          </div>
+          <div class="col-sm-7 line-height align-self-center font-weight-light">
+              <i class="fab fa-html5"></i> HTML5 / Haml /<br>
+              <i class="fab fa-css3-alt"></i> CSS3 / <i class="fab fa-sass"></i> SASS(SCSS)/<br>
+              <i class="fab fa-js-square"></i> JavaScript(jQuery)
+
+
+          </div>
+        </div>
+        <div class="row mt-3 skills-style py-4">
+          <div class="col-sm-5 text-center align-self-center font-weight-bold">
+              <em class="skills-title">サーバーサイド</em>
+          </div>
+          <div class="col-sm-7 line-height align-self-center font-weight-light ">
+              <i class="fas fa-gem"></i> ruby / Rbuy on Rails /<br>
+              <i class="fas fa-table"></i> MySQL / <i class="fab fa-aws"></i> AWS /<br>
+              Nginx / Unicorn
+            
+          </div>
+        </div>
+        <div class="row mt-3 skills-style py-4">
+          <div class="col-sm-5 text-center align-self-center font-weight-bold">
+              <em class="skills-title">その他</em>
+          </div>
+          <div class="col-sm-7 align-self-center line-height font-weight-light">
+              <i class="fab fa-github"></i> GitHub / GitHub Pages /<br> 
+              <i class="fab fa-bootstrap"></i> Bootstrap4 / Capistrano / <br>
+              <i class="fas fa-database"></i> S3 / EC2 /<br>
+              Visual Suudio Code / Sublime Text3 /<br>
+              <i class="fab fa-slack"></i> Slack / <i class="fab fa-trello"></i> Trello
+            
+          </div>
+        </div>
       </div>
+      <!-- bg-danger bg-danger-->
       <!-- page3(works) -->
-      <div id="page3" class="container min-height bg-page">
+      <div id="page3" class="container min-height bg-page mt-3">
         <h3 class="active-blue text-center">works</h3>
-        <p>スクロールしてみて下さい。</p>
-        ...
+        <!-- mercari -->
+        <div class="row mt-5">
+          <div class="col-sm-6 mb-5 px-4">
+            <img class="w-100" src="img/mercari.png" alt="mercari-image">
+            <div class="row px-1 py-3 ">
+              <div class="col-7 ">
+                <h6 class="card-title text-center pt-2">freemarket_sample</h6>
+              </div>
+              <div class="col-5 ">
+                <p class="text-right">
+                  <button class="btn bg-active-blue" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                      Details
+                  </button>
+                </p>
+              </div>
+              <div class="collapse mx-auto works-style " id="collapseExample1">
+                <div class="card card-body ">
+                  <a class="link-style" href="https://github.com/syoji-haruki/freemarket_sample_47a"><i class="fab fa-github fa-fw"></i> GitHub</a><br>
+                  <a class="link-style" href="http://52.194.209.74/"><i class="fas fa-link"></i> URL ( admin / 47a )</a><br>
+                  メルカリのコピーサイトです
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio -->
+          <div class="col-sm-6 mb-5 px-4">
+            <img class="w-100" src="img/portfolio.png" alt="portfolio-image">
+            <div class="row px-1 py-3 ">
+              <div class="col-7 ">
+                <h6 class="card-title text-center pt-2">Portfolio</h6>
+              </div>
+              <div class="col-5 ">
+                <p class="text-right">
+                  <button class="btn bg-active-blue" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                      Details
+                  </button>
+                </p>
+              </div>
+              <div class="collapse mx-auto works-style " id="collapseExample2">
+                <div class="card card-body ">
+                  <a class="link-style" href="https://github.com/syoji-haruki/portfolio"><i class="fab fa-github fa-fw"></i> GitHub</a><br>
+                  <a class="link-style" href="https://syoji-haruki.github.io/portfolio/"><i class="fas fa-link"></i> URL</a><br>
+                    制作物一覧サイトです
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- chatspace -->
+        <div class="row mt-5">
+          <div class="col-sm-6 mb-5 px-4">
+            <img class="w-100 fix-style" src="https://i.gyazo.com/d94fa79c289d2cf6d6cfbd0b0fd437b2.png" alt="Image from Gyazo">
+            <div class="row px-1 py-3 ">
+              <div class="col-7 ">
+                <h6 class="card-title text-center pt-2">chatspace</h6>
+              </div>
+              <div class="col-5 ">
+                <p class="text-right">
+                  <button class="btn bg-active-blue" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                      Details
+                  </button>
+                </p>
+              </div>
+              <div class="collapse mx-auto works-style " id="collapseExample3">
+                <div class="card card-body ">
+                  <a class="link-style" href="https://github.com/syoji-haruki/chat-space2"><i class="fab fa-github fa-fw"></i> GitHub</a><br>
+                  チャットアプリです
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- mini-appli -->
+          <div class="col-sm-6 mb-5 px-4">
+            <img class="w-100 " src="https://i.gyazo.com/335b247f5b6a4af37280c246150df44c.jpg" alt="Image from Gyazo">
+            <div class="row px-1 py-3 ">
+              <div class="col-7 ">
+                <h6 class="card-title text-center pt-2">mini-appli</h6>
+              </div>
+              <div class="col-5 ">
+                <p class="text-right">
+                  <button class="btn bg-active-blue" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                      Details
+                  </button>
+                </p>
+              </div>
+              <div class="collapse mx-auto works-style " id="collapseExample4">
+                <div class="card card-body ">
+                  <a class="link-style" href="https://github.com/syoji-haruki/mini-appli"><i class="fab fa-github fa-fw"></i> GitHub</a><br>
+                    動的な基本復習アプリです
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
     <!-- footer -->
     <div class="container-fruid footer-style py-3" >
       <p class="text-center font-weight-light footer-style mb-0">CREDITS<br>

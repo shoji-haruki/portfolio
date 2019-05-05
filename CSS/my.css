@@ -95,11 +95,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .dropdown-style {
   background-color: ActiveBorder;
-  color:white;
+  color:#333;
 } 
 
 .my-name {
-  margin-top: 25vh;
+  margin-top: 23vh;
 }
 .top-style {
   color:ActiveCaption;
@@ -110,13 +110,41 @@ h1, h2, h3, h4, h5, h6 {
   color: #007bff;
 }
 
+.bg-active-blue {
+  background-color: rgba(0,103,244,0.25);
+  color: #333;
+}
 
+.page1-style {
+  min-height: 75vh;
+}
 
+.image-style {
+  width:22vw;
+}
 
-  
+.skills-style {
+  background-color: white;
+}
 
+.line-height {
+  line-height: 2em;
+}
 
+.skills-title {
+  color: #75A9FF;
+}
 
+.works-style {
+  width: 94%;
+}
 
+.link-style:hover {
+  text-decoration: none;
+}
+
+.fix-style {
+  margin-bottom:8vw;
+}
 
 
