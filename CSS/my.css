@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer-style {
   background-color: #333;
   color: #EEEEEE;
-  font-size:0.5em;
+  font-size: 1vw;
 }
 
 .navbar-style {
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .image-style {
-  width:22vw;
+  width:30vw;
 }
 
 .skills-style {
